@@ -1,4 +1,3 @@
-cf_api_ca_cert:
- certificate: |
+cf_api_ca_cert: |
     -----BEGIN CERTIFICATE-----
     -----END CERTIFICATE-----
