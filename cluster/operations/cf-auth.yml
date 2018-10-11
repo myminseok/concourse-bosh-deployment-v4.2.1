@@ -7,3 +7,6 @@
 - type: replace
   path: /instance_groups/name=web/jobs/name=atc/properties/cf_auth?/api_url
   value: ((cf_api_url))
+- type: replace
+  path: /instance_groups/name=web/jobs/name=atc/properties/cf_auth?/ca_cert/certificate
+  value: ((cf_api_ca_cert))
